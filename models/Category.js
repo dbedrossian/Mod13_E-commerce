@@ -14,8 +14,7 @@ Category.init(
     },
     category_name: {
       type: DataTypes.STRING,
-      allowNull: false,
-      defaultValue: 'scarves'
+      allowNull: false
     },
   },
   {
