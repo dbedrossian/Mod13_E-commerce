@@ -49,7 +49,7 @@ router.post('/', async (req, res) => {
   */
     try {
       const productData = await Product.create({
-        category_id: req.body.category_id,
+        category_id: req.body.category_id
       });
       res.status(200).json(productData);
     } catch (err) {
